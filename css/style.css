@@ -1,0 +1,18 @@
+body {
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+  margin: 0;
+  /* background-color: #000 !important; */
+}
+.signature {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 50px;
+  color: #666;
+  text-align: right;
+  line-height: 1.5;
+  background: rgba(255, 181, 181, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}

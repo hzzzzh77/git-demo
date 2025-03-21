@@ -1,0 +1,112 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* CSS Document */
+
+.bbb{
+    margin: 50px ;
+    font-size: 50px;
+    color: #33F;
+}
+/* 在文件顶部字符集声明后添加字体导入 */
+.ccc{
+    margin: 50px ;
+    font-size: 35px;
+    color: #33F;
+}
+
+.aaa{
+    color: #ff0000;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif; /* 新增数字字体 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 添加立体阴影 */
+    letter-spacing: 1px; /* 微调字距 */
+}
+
+
+img {
+    float: left; /* 左浮动布局 */
+    margin-right: 30px; /* 图片右侧外边距 */
+    margin-bottom: 20px; /* 图片底部外边距 */
+    width: 800px; /* 固定宽度 */
+    height: 520px; /* 固定高度 */
+}
+.page_link{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;	
+}
+.anniu{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 50px;
+   	
+}
+
+/* 新增通用样式 */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+
+.content-section {
+    background: #fff9f5;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.intro {
+    font-size: 25px;
+    line-height: 1.8;
+    color: #666;
+    text-indent: 2em;
+}
+
+.highlight-red {
+    color: #e63946;
+    font-weight: 600;
+}
+
+.price-tag {
+    background: linear-gradient(135deg, #e75353, #ea8888);
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 12px 35px;
+    background: linear-gradient(145deg, #ff9f1c, #ffbf69);
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    font-weight: 500;
+}
+
+.back-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255,159,28,0.3);
+}

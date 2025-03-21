@@ -1,0 +1,110 @@
+        /* 通用样式 - 页面基础设定 */
+        body {
+            line-height: 3; /* 设置3倍行高（相对于当前字体尺寸） */
+            letter-spacing: 2px; /* 字符间距2像素 */
+            font-family: SimSun, serif; /* 优先使用宋体，备用衬线字体 */
+        }
+
+        /* 标题样式 - 主标题格式 */
+        h2 {
+            text-align: center; /* 水平居中 */
+            line-height: 5;    /* 原为10 调整为5倍行高 */
+            font-size: 3em;    /* 新增字体大小（3倍父元素字号） */
+            margin-bottom: 0;/* 新增下边距（取消底部外边距） */
+            letter-spacing: 8px; /* 标题字符间距8像素 */ 
+            font-family: 'Microsoft YaHei', SimHei, sans-serif; /* 雅黑/黑体字体栈 */
+            padding-bottom: 0; /* 取消内下边距 */
+        }
+
+        /* 标题中的特殊文本颜色 */
+        h2 span {
+            color: #4162b3; /* 天蓝色文字 */
+        }
+
+        /* 更新时间样式 - 位于标题下方 */
+        .update-time {
+            margin-top: -4em; /* 负边距上移4em */
+            text-align: center; /* 文本居中 */
+            letter-spacing: 0.1px; /* 紧凑字符间距 */
+        }
+        .update-time time {
+            color: rgb(0, 153, 255); /* 时间文本颜色 */
+            font-size: 0.9em; /* 相对父元素90%字号 */
+        }
+
+        /* 图片容器布局设置 */
+        .img-container {
+            clear: both; /* 清除两侧浮动 */
+            padding-left: 50px;  /* 左内边距50px */
+            padding-right: 70px; /* 右内边距70px */
+        }
+        .img-container img {
+            float: left; /* 左浮动布局 */
+            margin-right: 30px; /* 图片右侧外边距 */
+            margin-bottom: 20px; /* 图片底部外边距 */
+            width: 800px; /* 固定宽度 */
+            height: 520px; /* 固定高度 */
+        }
+
+        /* 正文内容格式 */
+        .content {
+            line-height: 3; /* 3倍行高 */
+            font-family: 'Microsoft YaHei', SimHei, sans-serif; /* 正文字体设置 */
+            font-size: 20px; /* 固定字号20像素 */
+        }
+        .content span {
+            color: red; /* 特殊文字红色强调 */
+        }
+
+        /* 底部元信息样式 */
+        .article-info {
+            color: #666; /* 深灰色文字 */
+            font-size: 0.9em; /* 相对字号90% */
+        }
+
+        .article-info p {
+            display: inline-block; /* 行内块级元素 */
+            margin-right: 80px; /* 段落右侧间距 */
+            font-style: italic; /* 斜体文字 */
+            font-family: SimSun, serif; /* 宋体/衬线字体 */
+            font-size: 20px; /* 固定字号20像素 */
+        }
+
+        .article-info p span {
+            color: rgb(0, 153, 255);  /* 特殊字段蓝色强调 */
+        }
+        .page_link {
+           
+            padding: 5px 10px;
+            font-size: 50px;
+        }
+        .img-anniu {
+            clear: both;
+            padding-left: 50px;
+            padding-right: 70px;
+            overflow: hidden;
+            
+            display: flex;
+            justify-content: flex-end; /* 右对齐 */
+            align-items: center;      /* 垂直居中 */
+            gap: 20px;               /* 元素间距 */
+            font-size: 50px;
+        }
+        .img-anniu img {
+            width: 100px;
+            height: 100px;
+            /* 移除浮动属性 */
+            float: none;
+            margin-right: 0; 
+        }
+
+        /* 新增美食主题配色 */
+        h2 span { color: #d32f2f; }
+        .content span { color: #388e3c; }
+        .page_link {
+            background: #d32f2f;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+        }
+        .img-container { border: 3px solid #ffd54f; }
